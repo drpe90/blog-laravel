@@ -45,11 +45,11 @@ http://localhost/
 
 ## Ручной запуск без Docker
 
-**BACKEND**
+## BACKEND
 
 cd blog-backend
 cp .env.example .env
-# отредактировать .env (DB_HOST=127.0.0.1, DB_DATABASE=laravel и т.д.)
+отредактировать .env (DB_HOST=127.0.0.1, DB_DATABASE=laravel и т.д.)
 docker compose up -d db   # или запусти MySQL вручную
 php artisan key:generate
 php artisan migrate --seed
@@ -57,7 +57,7 @@ php artisan serve
 
 API будет на http://127.0.0.1:8000/api
 
-**FRONTEND**
+## FRONTEND
 
 cd blog-frontend
 npm install
