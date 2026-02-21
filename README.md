@@ -13,13 +13,13 @@ API: REST без авторизации
 ## Структура проекта
 
 blog-laravel/
-├── blog-backend/                # Laravel API
-├── blog-frontend/               # React + Vite
+├── blog-backend/
+├── blog-frontend/ 
 ├── docker-compose.yml
 ├── README.md
 └── .gitignore
 
-text## Требования
+## Требования
 
 - Docker + docker compose
 - Git
